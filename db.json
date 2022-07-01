@@ -1,0 +1,174 @@
+{
+  "admin": [
+    {
+      "id": 1,
+      "email": "james@gmail.com",
+      "name": "James",
+      "password": "aaaaaaaaaa",
+      "role": "admin",
+      "phone": 1234569874,
+      "age": 32,
+      "gender": "male"
+    }
+  ],
+  "busowner": [
+    {
+      "id": 171737323,
+      "Name": "Steve",
+      "password": "aaaaaaaaaa",
+      "email": "james@gmail.com",
+      "role": "busowner",
+      "gender": "male",
+      "phone": 1236547896,
+      "age": 32,
+      "adminId": 1
+    }
+  ],
+  "bus": [
+    {
+      "id": 1,
+      "name": "James",
+      "empty_seats": [
+        49
+      ],
+      "booked_seats": [],
+      "source": "chennai",
+      "destination": "bangalore",
+      "route_id": 1,
+      "driver_name": "Maron",
+      "phone": 1236547896
+    }
+  ],
+  "busroute": [
+    {
+      "id": 1,
+      "busid": 1,
+      "routeid": 1,
+      "routename": "odisa"
+    }
+  ],
+  "route": [
+    {
+      "id": 1,
+      "name": "odisa"
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "name": "James",
+      "age": 32,
+      "role": "user",
+      "gender": "male",
+      "password": "aaaaaaaaaa",
+      "phone": 1236547896,
+      "email": "james@gmail.com"
+    },
+    {
+      "id": 181822817,
+      "email": "james@gmail.com",
+      "name": "a",
+      "gender": "f",
+      "password": "aassdd",
+      "role": "user",
+      "phone": 1236547856,
+      "age": 23
+    }
+  ],
+  "booking": [
+    {
+      "id": 1,
+      "busid": 1,
+      "userid": 1,
+      "amt": 1200,
+      "seat_no": 2,
+      "phone": 1236547896
+    }
+  ],
+  "seats": [
+    {
+      "id": 1,
+      "busid": 1,
+      "upper_left": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "upper_right1": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "upper_right2": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "lower_left": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "lower_right1": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "lower_right2": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "left_seater1": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "left_seater2": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "right_seater1": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "right_seater2": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ]
+}

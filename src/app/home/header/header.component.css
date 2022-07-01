@@ -1,0 +1,129 @@
+img {
+    width: 100%;
+    height: auto;
+  }
+.input-form{
+    text-align: center;
+    margin-top: 300px;
+    margin-left: 200px;
+    margin-bottom: 250px;
+    margin-right: 200px;
+}   
+.panel:hover {
+    box-shadow: 20px 20px 50px grey;
+    
+  }
+
+.panel{
+    border-bottom : 1px solid rgba(223, 216, 216, 0.993);
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    border-radius:0 !important;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: black;
+  z-index: 9999;
+  border: 0;
+  font-size: 15px !important;
+  
+}
+.navbar li a, .navbar .navbar-brand {
+  color: #fff !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #f4511e !important;
+  background-color: #fff !important;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+.navbar li button{
+    margin-top: 13px;
+    background: transparent;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+#login-form
+{
+    display: none;
+}
+.modal{
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  margin-left: 25%;
+  margin-right: 20%;
+  width: 50%; 
+  height: 80%; 
+  overflow: auto; 
+  background-color: white;
+  padding-top: 60px;
+  background-color: #fefefe;
+  
+  border: 1px solid #888;
+  
+}
+.modal ul{
+    background-color: transparent;
+}
+
+#loginPage{
+    margin: 5%;
+}
+#registerPage{
+    margin: 5%;
+}
+
+
+.carousel-control.right, .carousel-control.left {
+  background-image: none;
+  color: black;
+}
+.carousel-indicators li {
+  border-color: black;
+}
+.carousel-indicators li.active {
+  background-color: black;
+}
+
+.h4{
+  font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.item h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  font-weight: 400;
+  font-style: italic;
+  margin: 70px 0;
+}
+
+@media only screen and (max-width: 400px) {
+  .item h4 {
+    font-size: 15px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+  }
+  #bottom{
+    margin-bottom: 20%;
+    padding-bottom: 20%;
+  }
+}

@@ -1,0 +1,28 @@
+.container{
+    margin-left: 15%;
+    margin-right: 20%;
+    margin-top: 3%;
+    background-color: rgb(240, 226, 226);
+}
+
+.panel:hover {
+    box-shadow: 20px 20px 50px grey;
+    
+  }
+
+.panel{
+    border-bottom : 1px solid rgba(223, 216, 216, 0.993);
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    border-radius:0 !important;
+}
+.grid-container {
+    padding-top: 50px;
+      display: grid;
+      grid-template-columns: auto auto auto auto auto;
+    }

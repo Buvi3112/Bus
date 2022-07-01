@@ -1,0 +1,31 @@
+.login-form{
+    width:40%;
+    /* text-align: center; */
+    align-content: center;
+    margin: auto;
+    padding-top: 100px;
+    
+}
+label{
+    text-align: left;
+}
+
+
+.login-form ul{
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .login-form {
+        width:70%;
+        
+        align-content: center;
+        margin: auto;
+    }
+  }
+
+.nav-item{
+    width: 45%;
+}
+
+  
